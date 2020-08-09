@@ -18,7 +18,7 @@ public class SampleServlet extends HttpServlet {
      private String mymsg;
      
      public void init(){
-    	 mymsg = "Sample HTML Message";
+    	 mymsg = "Sample HTML Message -Updated";
      }
     /**
      * @see HttpServlet#HttpServlet()
