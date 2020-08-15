@@ -40,6 +40,7 @@ public class SampleServlet extends HttpServlet {
         PrintWriter out = response.getWriter();      
         out.println("<h1>" + mymsg + "</h1>");      
         out.println("<p>" + "Hello Friends Test" + "</p>");   
+        out.println("<p>" + "Commit 1" + "</p>");   
 	}
 
 	/**
